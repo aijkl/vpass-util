@@ -17,7 +17,7 @@ namespace VpassUtil.Cli.Commands
             var directoryInfo = Directory.CreateDirectory(settings.OutputDirectory);
             using var vpass = new VPassApiClient(settings.Cookie);
 
-            for (var dateTime = DateTime.Parse(settings.Start); dateTime < DateTime.Parse(settings.End); dateTime = dateTime.AddMonths(1))
+            for (var dateTime = DateTime.Parse(settings.Start); dateTime <= DateTime.Parse(settings.End); dateTime = dateTime.AddMonths(1))
             {
                 var history = await vpass.FetchDetailCsvAsync(dateTime.Year, dateTime.Month);
                 var filePath = Path.Combine(directoryInfo.FullName, $"{dateTime.Year}{dateTime.Month.ToString().PadLeft(2, '0')}.csv");
