@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "download": {
+      "commandName": "Project",
+      "commandLineArgs": "download"
+    }
+  }
+}
