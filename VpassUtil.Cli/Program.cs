@@ -4,7 +4,7 @@ using VpassUtil.Cli.Commands;
 
 namespace VpassHack
 {
-    internal class Program
+    internal abstract class Program
     {
         private static async Task<int> Main(string[] args)
         {

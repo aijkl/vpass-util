@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33209.295
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VpassUtil.Cli", "VpassUtil\VpassUtil.Cli.csproj", "{9631EA3B-DE39-4420-BD16-787243832145}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VpassUtil.Cli", "VpassUtil.Cli\VpassUtil.Cli.csproj", "{9631EA3B-DE39-4420-BD16-787243832145}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
+	EndGlobalSectionSS
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{9631EA3B-DE39-4420-BD16-787243832145}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9631EA3B-DE39-4420-BD16-787243832145}.Debug|Any CPU.Build.0 = Debug|Any CPU
