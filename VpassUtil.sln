@@ -5,16 +5,23 @@ VisualStudioVersion = 17.5.33209.295
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VpassUtil.Cli", "VpassUtil.Cli\VpassUtil.Cli.csproj", "{9631EA3B-DE39-4420-BD16-787243832145}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VpassUtil", "VpassUtil\VpassUtil.csproj", "{FEFBE7F3-C945-4B31-83DF-25337443DEE5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSectionSS
+	EndGlobalSection
+	SS
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{9631EA3B-DE39-4420-BD16-787243832145}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9631EA3B-DE39-4420-BD16-787243832145}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9631EA3B-DE39-4420-BD16-787243832145}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9631EA3B-DE39-4420-BD16-787243832145}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEFBE7F3-C945-4B31-83DF-25337443DEE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEFBE7F3-C945-4B31-83DF-25337443DEE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEFBE7F3-C945-4B31-83DF-25337443DEE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEFBE7F3-C945-4B31-83DF-25337443DEE5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
